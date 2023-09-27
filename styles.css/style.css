@@ -1,0 +1,41 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Se utiliza para aplicar estilos específicos o reglas de diseño a los elementos input que tienen el atributo type establecido como "number". */
+input[type="number"] {
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Regla CSS que se aplica cuando un usuario coloca el cursor del mouse sobre un elemento <button> en una página web. */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Ejemplo de estilos que no se deben de aplicar pero que funcionan 
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}*/
